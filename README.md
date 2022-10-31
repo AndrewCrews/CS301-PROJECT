@@ -11,3 +11,4 @@ Project Created by Andrew Crews and Jacob Crews
 ! nnictl create --config nni_repo/nni/examples/trials/mnist-pytorch/config.yml --port 5000 &
 get_ipython().system_raw('./ngrok http 5000 &')
 ! curl -s http://localhost:4040/api/tunnels # don't change the port number 4040
+c
